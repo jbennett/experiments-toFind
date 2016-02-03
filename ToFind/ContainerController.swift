@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContainerController: UIViewController {
+  
+  @IBOutlet weak var pageController: UIPageViewController!
 
   override func viewDidLoad() {
     super.viewDidLoad()
